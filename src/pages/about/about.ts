@@ -7,7 +7,16 @@ import { NavController } from 'ionic-angular';
 })
 export class AboutPage {
 
+now: Date;
+author: string;
+
   constructor(public navCtrl: NavController) {
+
+
+this.now = new Date();
+
+
+this.author = 'Alex Carey'; 
 
   }
 
